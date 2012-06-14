@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
     ".document",
     ".gitignore",
     "LICENSE",
-    "README.rdoc",
+    "README.textile",
     "Rakefile",
     "VERSION",
     "lib/panoramio.rb",
