@@ -14,18 +14,18 @@ Gem::Specification.new do |s|
   s.email = %q{christian.hellsten@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+    "README.rdoc"
   ]
   s.files = [
     ".document",
-     ".gitignore",
-     "LICENSE",
-     "README.rdoc",
-     "Rakefile",
-     "VERSION",
-     "lib/panoramio.rb",
-     "test/panoramio_test.rb",
-     "test/test_helper.rb"
+    ".gitignore",
+    "LICENSE",
+    "README.rdoc",
+    "Rakefile",
+    "VERSION",
+    "lib/panoramio.rb",
+    "test/panoramio_test.rb",
+    "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/christian.hellsten/ruby-panoramio}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Simple Panoramio API client written in Ruby}
   s.test_files = [
     "test/panoramio_test.rb",
-     "test/test_helper.rb"
+    "test/test_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
@@ -42,17 +42,17 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<pauldix-typhoeus>, [">= 0"])
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_development_dependency(%q<jeremymcanally-matchy>, [">= 0"])
+      s.add_runtime_dependency(%q<typhoeus>, [">= 0"])
+      s.add_development_dependency(%q<shoulda>, [">= 0"])
+      s.add_development_dependency(%q<matchy>, [">= 0"])
     else
-      s.add_dependency(%q<pauldix-typhoeus>, [">= 0"])
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_dependency(%q<jeremymcanally-matchy>, [">= 0"])
+      s.add_dependency(%q<typhoeus>, [">= 0"])
+      s.add_dependency(%q<shoulda>, [">= 0"])
+      s.add_dependency(%q<matchy>, [">= 0"])
     end
   else
-    s.add_dependency(%q<pauldix-typhoeus>, [">= 0"])
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-    s.add_dependency(%q<jeremymcanally-matchy>, [">= 0"])
+    s.add_dependency(%q<typhoeus>, [">= 0"])
+    s.add_dependency(%q<shoulda>, [">= 0"])
+    s.add_dependency(%q<matchy>, [">= 0"])
   end
 end
